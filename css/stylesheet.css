@@ -1,16 +1,32 @@
-* {
+/* * {
     border: 1px black dotted;
-    max-width: 950px;
+} */
+header {
+    width: 910px;
+    color: black;
+    /* border: solid black 2px; */
+}
+div.parte_uno {
+    padding-top: 5%;
+    padding-left: 8%;
 }
 body {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Arial";
-    max-width: 1000px;
     padding: 20px 20px;
+    max-width: 1000px;
+    padding: 10px 20px;
+    margin: 0 auto;
 }
 main {
-    float: left;
     background-color: #9CDFFF;
+    display: inline-block;
+    width: 486px;
+    padding-left: 6px;
+    font-size: smaller;
+    height: 850px;
+    /* border: solid black 2px; */
 }
 body > header > div {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -18,10 +34,6 @@ body > header > div {
     padding: 0%;
     width: 100%;
     background-color: #9CDFFF;
-}
-header > p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 60%;
 }
 header > div > figure > img {
     width: 200px;
@@ -37,19 +49,44 @@ div.datos > h1 {
 }
 div.parte_uno {
     display: flex;
+    flex-wrap: wrap;
     font-size: 200%;
     font:"Glacial Indifference";
 }
-div.datos > p {
-    margin-top: 0%; 
-}
 aside {
+    width: 490px;
+    /* border: solid black 2px; */
     background-color: #9CDFFF;
-    width: 890px;
+    display: inline-block 500px;
+    font-size: smaller;
 }
 footer > img {
+    /* border: solid black 2px; */
     padding: 0%;
-    width: 890px;
+    width: 982px;
     height: 55px;
 }
-
+strong {
+    font-weight: bold;
+}
+article {
+    padding: 0% 10% 5% 20%;
+}
+section.derecha > article {
+    padding-left: 0%;
+}
+h2 {
+    color: black;
+}
+h4 {
+    font-weight: lighter;
+}
+main > section > article > p, li, h3, h4 {
+    color: #555555;
+}
+li {
+    list-style-type: "-  ";
+}
+ul.contacto > li, ul.personas > li {
+    list-style-type: " ";
+}
